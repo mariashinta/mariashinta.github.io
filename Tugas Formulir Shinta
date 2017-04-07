@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<title> Form Biodata </title>
+</head>
+<style>
+		.center{
+			text-align: center;
+		}
+
+table {
+
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f5f5dc;
+}
+</style>
+
+<h1 class="center" style="font-family:Broadway;"> FORM BIODATA</h1>
+<p class="center" style="font-family:sans-serif;"> Harap diisi sesuai dengan keadaan Anda</p>
+
+<body style="background-color:AntiqueWhite;">
+<fieldset>
+		<legend style="color:LightSkyBlue; font-size:200%; font-family:Verdana;">Data Diri</legend>
+		<form>
+		<table>
+			<tr>
+				<td> Nama lengkap  </td>
+				<td> <input type="text" name="namalengkap" placeholder="Nama Lengkap"> </td>
+			</tr>
+
+			<tr>
+				<td> Tempat Tanggal Lahir  </td>
+				<td> <input type="text" name="tempatlahir" placeholder="Tempat Lahir">
+					 <input type="date" name="tanggallahir"> </td>
+			</tr>
+			
+			<tr>
+				<td valign="top"> Jenis Kelamin  </td>
+				<td> <input type="radio" name="jeniskelamin" value="Laki-Laki" checked> Laki-Laki<br>
+					<input type="radio" name="jeniskelamin" value="Perempuan"> Perempuan</td>
+			</tr>
+			<tr>
+				<td>Agama</td>
+				<td><input list="agama" name="agama" placeholder="::Pilih Agama::">
+					<datalist id="agama">
+					<option value="Islam">
+					<option value="Katolik">
+					<option value="Kristen">
+					<option value="Budha">
+					<option value="Hindu">
+					</datalist> </td>
+			</tr>
+
+		
+			<tr>
+				<td valign="top"> Golongan Darah </td>
+				<td>
+					<input type="radio" name="golongandarah" value="A" checked> A
+					<input type="radio" name="golongandarah" value="B"> B
+					<input type="radio" name="golongandarah" value="O"> O 
+					<input type="radio" name="golongandarah" value="AB"> AB </td>
+			</tr>
+  
+			<tr>
+				<td valign="top">Alamat</td>
+				<td><textarea name="alamat" placeholder="Alamat" rows="6" cols="21"></textarea>
+			</tr>
+			
+			<tr>
+				<td> Telepon  </td>
+				<td> <input type="text" name="telepon" placeholder="Format +62********"> </td>
+			</tr>
+
+			<tr>
+				<td> Status Pekerjaan  </td>
+				<td>
+					<input type="checkbox" name="pekerjaan" value="bekerja"> Bekerja
+					<input type="checkbox" name="pekerjaan" value="tidakbekerja"> Tidak Bekerja </td>
+			</tr>
+ 
+			<tr>
+				<td>Email </td>
+				<td>
+					<input class="field-isi" type="text" placeholder="Email"> @
+					<select name="email">
+					    <option value="uny">student.uny.ac.id</option>
+						<option value="gmail">gmail.com</option>
+    					<option value="yahoo">yahoo.com</option>
+  					</select>
+				</td>
+			</tr>
+ </form>
+ </table>
+ </fieldset>
+
+<fieldset>
+		<legend style="color:LightSkyBlue; font-size:200%; font-family:Verdana;">Riwayat Pendidikan</legend>
+		<form>
+		<table>
+
+			<tr>
+				<td> SD/MI </td>
+				<td> <input type="text" name="sdmi"placeholder="Nama Instansi">
+				     Tahun Lulus <input type="number" name="tahunlulus" min="1945" max="2017" placeholder="Tahun"></td>
+			</tr>
+
+			<tr>
+				<td> SMP/MTs </td>
+				<td> <input type="text" name="smpmts" placeholder="Nama Instansi">
+				     Tahun Lulus <input type="number" name="tahunlulus" min="1945" max="2017" placeholder="Tahun"> </td>
+				</tr>
+
+			<tr>
+				<td> SMA/SMK/MA </td>
+				<td> <input type="text" name="smasmkma" placeholder="Nama Instansi">
+				     Tahun Lulus <input type="number" name="tahunlulus" min="1945" max="2017" placeholder="Tahun"> </td>
+			</tr>
+		
+		</form>
+		</table>
+</fieldset>
+
+	<div class="center">
+			<input type="submit" value="Submit">
+			<input type="reset">
+		</div>	
+
+
+</body>
+</html> 
