@@ -6,34 +6,61 @@
 <title> Form Biodata </title>
 </head>
 <style>
+	body{
+			background-color: AntiqueWhite;
+			}
+		h1{
+			text-align: center;
+			font-family: Broadway;
+		}
+		p{
+			text-align: center;
+			font-family: sans-serif;
+			}
 		.center{
 			text-align: center;
 		}
+	legend{
+		color: LightSkyBlue;
+		font-family: Verdana;
+		font-size: 200%;
+		}
+		fieldset{
+		margin: auto;
+		width: 50%;
+		}
+	form{
+			font-family: arial;
+			}
+	table {
 
-table {
+   		 font-family: arial, sans-serif;
+   		 border-collapse: collapse;
+   		 width: 100%;
+		}
 
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
+	td{
+    		 text-align: left;
+    		 padding: 8px;
+		}
 
-td{
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-
-tr:nth-child(even) {
-    background-color: #f5f5dc;
-}
+	tr:nth-child(even) {
+    	background-color: #f5f5dc;
+		}
+	footer{
+			position:relative;
+			width:100%;
+			text-align:center;
+			color:#808080;
+			}
 </style>
 
-<h1 class="center" style="font-family:Broadway;"> FORM BIODATA</h1>
-<p class="center" style="font-family:sans-serif;"> Harap diisi sesuai dengan keadaan Anda</p>
+<h1> FORM BIODATA</h1>
+<p> Harap diisi sesuai dengan keadaan Anda</p>
 
 <body style="background-color:AntiqueWhite;">
 <fieldset>
-		<legend style="color:LightSkyBlue; font-size:200%; font-family:Verdana;">Data Diri</legend>
+		<legend>Data Diri</legend>
 		<form>
 		<table>
 			<tr>
@@ -102,12 +129,12 @@ tr:nth-child(even) {
   					</select>
 				</td>
 			</tr>
- </form>
- </table>
+		 </form>
+ 		</table>
  </fieldset>
 
 <fieldset>
-		<legend style="color:LightSkyBlue; font-size:200%; font-family:Verdana;">Riwayat Pendidikan</legend>
+		<legend>Riwayat Pendidikan</legend>
 		<form>
 		<table>
 
@@ -138,6 +165,6 @@ tr:nth-child(even) {
 			<input type="reset">
 		</div>	
 
-
+<footer> Copyright &copy; PTI 2016 Universitas Negeri Yogyakarta </footer>
 </body>
 </html> 
