@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Join Form</title>
+<style>
+	body {    
+        background-image: url('./form.jpg');
+        background-size: cover;
+		background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+		font-family: Arial, sans-serif;
+    	}
+	fieldset{
+		margin: auto;
+		width: 50%;
+	}
+	legend{
+		color: LightSkyBlue;
+		font-family: Verdana;
+		font-size: 200%;
+		}
+		fieldset{
+		margin: auto;
+		width: 50%;
+		}
+	h1{
+			text-align: center;
+			font-family: Broadway;
+		}
+	input[type=submit]{
+		height: 20px;
+		width: 10%
+		background-color: #f5f5dc;
+		color: black;
+		border:none;
+	}
+	input[type=reset]{
+		height: 20px;
+		width: 10%
+		background-color: #f5f5dc;
+		color: black;
+		border:none;
+		}
+	footer{
+			position:relative;
+			bottom:0px;
+			width:100%;
+			text-align:center;
+			color:#808080;
+			}
+	.baris{
+		width: 100%;
+		margin-top: 3px;
+	}
+	.koki{
+		display: inline-block;
+		width: 40%;
+	}
+	.kokan{
+		display: inline-block;
+		width: 50%;
+	}
+	.center{
+		text-align: center;
+		margin: auto;
+	}
+	.center1{
+		margin-top: 5%;
+	}
+	.center1 .baris:hover{background-color: #f5f5dc;
+	</style>
+	</head>
+	
+<body>
+<div class="center1">
+<h1>Let's Join Us!</h1>
+	<fieldset>
+		<legend>Personal Information</legend>
+		<form action oninput="x.value=parseInt(a.value)">
+		<div class="tabel">
+			<div class="baris">
+				<div class="koki">
+				Full Name<req> * </req>
+				</div>
+				<div class="kokan">
+				<input type="text" name="fullname" placeholder="Your Name">
+				</div>
+			</div>
+			<div class="baris">
+				<div class="koki">
+				Username<req> * </req>
+				</div>
+				<div class="kokan">
+				<input type="text" name="username" placeholder="Your Username">
+				</div>
+			</div>
+			<div class="baris">
+				<div class="koki">
+				Password<req> * </req>
+				</div>
+				<div class="kokan">
+				<input type="text" name="password" placeholder="Your Password">
+				</div>
+			</div>
+			<div class="baris">
+				<div class="koki">
+				Birth Date<req> * </req>
+				</div>
+				<div class="kokan">
+				<input type="text" name="location" placeholder="Location">
+				<input type="date" name="birthdate" min="1945-01-01">
+				</div>
+			</div>
+			<div class="baris">
+				<div class="koki">
+				Gender<req> * </req>
+				</div>
+				<div class="kokan">
+				<input type="radio" name="gender" checked> L <input type="radio" name="gender"> P<br>
+				</div>
+			</div>
+			<div class="baris">
+				<div class="koki">
+				Address
+				</div>
+				<div class="kokan">
+				<textarea name="address" rows="6" cols="21" placeholder="Address"></textarea>
+				</div>
+			</div>
+			<div class="baris">
+				<div class="koki">
+				Email<req> * </req>
+				</div>
+				<div class="kokan">
+					<input class="field-isi" type="text" placeholder="Email"> @
+					<select name="email">
+					    <option value="uny">student.uny.ac.id</option>
+						<option value="gmail">gmail.com</option>
+    					<option value="yahoo">yahoo.com</option>
+  					</select>
+				</div>
+			</div>
+			<div class="baris">
+				<div class="koki">
+				Phone Number
+				</div>
+				<div class="kokan">
+				<input type="text" name="phonenumber" placeholder="+62***********">
+				</div>
+			</div>
+			<div class="baris">
+				<div class="koki">
+				Weight
+				</div>
+				<div class="kokan">
+				30LBS <input type="range" name="a" value="30" max="1000"> 1000LBS (<output name="x" for="a">30</output>)
+				</div>
+			</div>
+			<div class="baris">
+				<div class="koki">
+				Height
+				</div>
+				<div class="kokan">
+				<input type="number" name="height" min="3" max="7"> ' <input type="number" name="height2" min="00" max="11"> "
+				</div>
+				</div>
+</fieldset>
+			
+
+<fieldset>
+		<legend>Education</legend>
+		<form action oninput="x.value=parseInt(a.value)">
+		<div class="tabel">
+			<div class="baris">
+				<div class="koki">
+				<input type="checkbox" name="education"> Elementary School
+				</div>
+				<div class="kokan">
+				Graduated <input type="number" name="year" min="1945" max="2017" placeholder="Year"> 
+				</div>
+			</div>
+			<div class="baris">
+				<div class="koki">
+				<input type="checkbox" name="education"> Junior School
+				</div>
+				<div class="kokan">
+				Graduated <input type="number" name="year" min="1945" max="2017" placeholder="Year"> 
+				</div>
+			</div>
+			<div class="baris">
+				<div class="koki">
+				<input type="checkbox" name="education"> Senior School
+				</div>
+				<div class="kokan">
+				Graduated <input type="number" name="year" min="1945" max="2017" placeholder="Year"> 
+				</div>
+			</div>
+			<div class="baris">
+				<div class="koki">
+				<input type="checkbox" name="education"> Collage
+				</div>
+				<div class="kokan">
+				Graduated <input type="number" name="year" min="1945" max="2017" placeholder="Year"> 
+				</div>
+			</div>
+			<div class="baris">
+				<div class="koki">
+				<input type="checkbox" name="education"> University
+				</div>
+				<div class="kokan">
+				Graduated <input type="number" name="year" min="1945" max="2017" placeholder="Year"> 
+				</div>
+			</div>
+</fieldset>			
+			
+			
+			</div>
+			<div class="baris">
+			<div class="center">
+				<input type="submit" value="Submit">
+				<input type="reset" value="Reset">
+			</div>
+			</div>
+		</div>
+
+</div>
+</body>
+<footer>Copyright &copy; PTI 2016 Universitas Negeri Yogyakarta</footer>
+</html>
+
