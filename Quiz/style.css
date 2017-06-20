@@ -1,0 +1,141 @@
+/*index*/
+html, body{
+	height: 100%;
+}
+.bawal {
+	background-image: url("bquiz.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: right top;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.welcome{
+	margin-top: 5%;
+	text-align: center;
+	font-family: Broadway;
+	font-size: 40px;
+}
+
+
+#materi {
+	margin-left: 34%;
+	margin-top: 10%;
+}
+#materi:hover {
+	opacity: 0.5;
+}
+#quiz {
+	margin-top: 10%;
+	margin-left: 10%;
+}
+#quiz:hover {
+	opacity: 0.5;
+}
+
+/*materi*/
+.mawal {
+	background-color: white;
+	background-image: url("matquiz.jpg");
+	background-repeat: no-repeat;
+	position: right top;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.matq {
+	margin-top: 5%;
+	text-align: center;
+	font-family: Comic Sans MS;
+	font-size: 40px;
+}
+.text {
+	margin-top: 5%;
+	margin-bottom: 10%;
+	margin-right: 30%;
+	margin-left: 30%;
+}
+
+#matjudul {
+	text-align: left;
+	font-family: Comic Sans MS;
+	font-size: 40px;
+}
+#matpar {
+	text-align: justify;
+	font-family: verdana;
+	margin: 5px;
+}
+#matgam {
+	text-align: center;
+	margin: auto;
+}
+.cen{
+	text-align: center;
+	margin: auto;
+}
+
+/*quiz*/
+.qawal{
+	background-image: url("squiz.jpg");
+	background-repeat: no-repeat;
+	position: right top;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.selamat {
+	margin-top: 5%;
+	text-align: center;
+	font-family: Comic Sans MS;
+	font-size: 40px;
+	background: rgba(255,255,255,0.6);
+}
+.qpar {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: center;
+}
+.tabb{
+	text-align: center;
+	margin: auto;
+}
+table {
+	font-size: 30px;
+	font-family: Arial;
+	text-align: center;
+}
+#tab{
+	color: black;
+	font-family: Comic Sans MS;
+	text-align: center;
+	font-size: 24px;
+	background: white;
+	display: inline-block;
+	width: 160px;
+	text-decoration: none;
+	background: rgba(255,255,255,0.9);
+	border: 4px solid orange;
+	border-radius: 10px;
+	padding: 5px;
+}
+td {
+	padding: 8px;
+}
+.tengah {
+    color: rgb(0,0,0);
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 30px;
+    display: inline-block;
+    width: 620px;
+	background: rgba(255,255,255,0.6);
+    border: 4px rgba(255,255,255,0.6);
+    border-radius: 10px;
+    padding: 10px;
+}
+.in {
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+}
